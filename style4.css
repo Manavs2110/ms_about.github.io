@@ -1,0 +1,210 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.n_style{
+    background-color: #8b0303;
+}
+.n_style a{
+    color:white;
+    font-size:17px;
+}
+.n_style a:hover{
+    color:rgb(10, 238, 10);
+}
+label.logo{
+    color:white;
+    font-size:35px;
+    font-weight: bold;
+}
+#back{
+    /* font-family:'Krona One', sans-serif; */
+    background-image: url("extra/white_wall.jpg");
+    height:200px;
+    width:100%;
+    background-repeat:x-axis;
+    text-align:center;
+    
+}
+#back h1{
+    font-size: 22;
+    font-weight:bolder;
+    text-shadow:3px 3px 0px white;
+}
+#bak{
+    width:200px;
+    text-align:center;
+    margin:auto;
+
+}
+#bak img{
+    width:200px;
+    height:100%;
+    margin-top: -70px;
+    border-radius:50%;
+    border:dashed 4px;
+    box-shadow: 4px 4px 2px black;
+}
+#abot{
+    width:80%;
+    margin:20px auto;
+    text-align:center;
+    border-bottom: 2px solid black;
+}
+@media (min-width: 750px) {
+    
+#abot{
+    font-weight: 1em;
+    font-size:1.5em;
+    padding:0 1.5em;
+}
+}
+.ed{
+    background-color: lightgrey;
+    border:2px black solid;
+    border-radius: 1em ;
+    width:90%;
+    height:auto;
+    margin:50px 5%;
+    box-shadow: 3px 5px 1px black;
+}
+.education{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.ed{
+    background-color: lightgrey;
+    border:2px black solid;
+    border-radius: 10px ;
+    width:90%;
+    height:auto;
+    margin:50px 5%;
+    box-shadow: 3px 5px 1px black;
+}
+.education{
+    display:flex;
+    justify-content: space-around;
+}
+.education div{
+    background-color:lightgrey;
+    width:80%;
+    height:350px;
+    border:2px black solid;
+    border-radius: 10px ;
+    /*margin:40px 30px 50px 30px;*/
+    margin:2% 2% 4% 2%;
+    box-shadow: 3px 5px 1px black;
+    
+    text-align:center;
+}
+.edu1{
+   
+}
+.edu-1 h3{
+    font-family:cursive;
+    font-size: large;
+    font-weight: bolder;
+    padding: 20px ;
+    border-bottom: 2px black solid;
+}
+.edu-1 img{
+    margin-top:5%;
+    width:80%;
+    height:50%;
+    border:3px black solid;
+    border-radius:4px;
+    max-width:350px;
+}
+.edu-1 b{
+    font-family:cursive;
+}
+@media (max-width:910px)
+{
+    .education{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+#point{
+    text-align:center;
+    padding:40px;
+}
+.info{
+    
+    display:flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+}
+.info span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.bar{
+    margin:2em 0;
+}
+
+.bar .line  {
+    height:5px;
+    width:100%;
+    background-color: lightgrey;
+}
+
+.bar .html{
+   background-image:linear-gradient(to right,crimson 80%,lightgrey 80%,lightgrey);
+}
+.bar .css{
+    background-image:linear-gradient(to right,crimson 50%,lightgrey 50%,lightgrey);
+ }
+ .bar .js{
+    background-image:linear-gradient(to right,crimson 35%,lightgrey 35%,lightgrey);
+ }
+ .bar .cpp{
+    background-image:linear-gradient(to right,crimson 30%,lightgrey 30%,lightgrey);
+ }
+ .bar .java{
+    background-image:linear-gradient(to right,crimson 30%,lightgrey 30%,lightgrey);
+    margin-bottom:10px;
+ }
+
+
+ footer{
+    width:100%;
+    height:200px;
+    background-color: #8b0303;
+   
+    margin-top:100px;
+    border-top: 5px solid rgb(38, 56, 141);
+    
+}
+
+
+ #foot1{
+    width:200px;
+      color:white;
+      text-align: center;
+      
+      font-size: 1.5em;
+      font-family: cursive;
+      margin:0 auto;
+      margin-top:30px;
+      padding-bottom:20px;
+      border-bottom: 2px solid white;
+  }
+  #foot2{
+    width:200px;
+    color:white;
+    text-align: center;
+    
+    font-size: 1.1em;
+    font-family: cursive;
+    margin:0 auto;
+    margin-top:30px;
+
+}
